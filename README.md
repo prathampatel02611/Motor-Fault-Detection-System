@@ -123,6 +123,17 @@ The Blynk IoT dashboard provides:
 
 ---
 
+## System Demonstration
+
+### Serial Monitor Output
+Real-time sensor data and fault status are displayed on the serial monitor.
+
+### IoT Dashboard
+The Blynk dashboard provides live visualization of motor parameters including current, temperature, vibration, and fault status.
+
+### Hardware Prototype
+The system was implemented using a breadboard prototype consisting of an ESP32 microcontroller, sensors, relay module, and DC motor.
+
 ## Example Output (Serial Monitor)
 
 ```
@@ -165,16 +176,31 @@ Motor-Fault-Detection-System
 
 ---
 
-## Technologies Used
+## Skills Demonstrated
 
-* Embedded Systems
-* Internet of Things (IoT)
-* ESP32 Microcontroller Programming
-* Sensor Interfacing
-* Real-Time Monitoring Systems
-* Fault Detection Algorithms
+- Embedded Systems Development
+- IoT System Design
+- Sensor Interfacing
+- Fault Detection Algorithms
+- Industrial Condition Monitoring
+- Real-Time Data Processing
+- ESP32 Microcontroller Programming
 
 ---
+## Project Status
+
+This project is currently under active development.
+
+The core monitoring and fault detection system has been implemented, and further improvements are being developed to enhance reliability and predictive monitoring capabilities.
+
+### Development Progress
+
+- [x] Sensor integration (Current, Temperature, Vibration)
+- [x] Real-time data monitoring
+- [x] IoT dashboard integration (Blynk)
+- [x] Motor fault detection logic
+- [x] Automatic motor shutdown protection
+
 
 ## Author
 
